@@ -1,0 +1,14 @@
+.input-zone{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 50%;
+}
+body{
+    background-color: #e6eaed;
+}
+.todo-item{
+    background-color: #fff;
+    cursor: pointer;
+}
