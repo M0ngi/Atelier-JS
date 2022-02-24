@@ -1,0 +1,22 @@
+body{
+    background-color: #e6eaed;
+}
+
+ol{
+    width: 25%;
+}
+
+li{
+    background-color: #FFF;
+    margin: 5px;
+    padding: 10px;
+}
+
+.addIcon{
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+.clickable{
+    cursor: pointer;
+}
