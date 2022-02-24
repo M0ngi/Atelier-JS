@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Text style changer</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container mt-5">
+            <div class="row mb-3" name="text">Test</div>
+            <div class="row mb-3">
+                <div class="col"><input name="textColor" class="w-100 h-100" type="color"></div>
+                <div class="col d-flex">
+                    <input name="textSize" class="w-100 h-100" value=10 type="number">
+                    <select name="textSizeUnit">
+                        <option value="px">Pixels</option>
+                        <option value="vw">View width</option>
+                        <option value="vh">View height</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <select name="textFace" class="textFontSel">
+                        <option value="Arial">Arial</option>
+                        <option value="Verdana">Verdana</option>
+                        <option value="Tahoma">Tahoma</option>
+                        <option value="sans-serif">sans-serif</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row d-flex flex-column w-50">
+                <label>Text</label>
+                <input value="Test" name="textValue" class="w-100" type="text">
+            </div>
+        </div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
